@@ -1,0 +1,6 @@
+Bundle-Name: Liferaybotics Ask Ray Chatbot
+Bundle-SymbolicName: com.liferay.npm.react.ai
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.npm.react.ai.constants
+Import-Package: !org.apache.log*, !com.google.appengine*, !com.google.apphosting*, *
+Web-ContextPath: /react-apiai

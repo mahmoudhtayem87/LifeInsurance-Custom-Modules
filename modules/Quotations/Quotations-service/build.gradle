@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:Quotations:Quotations-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../Quotations-api/src/main/java"
+}
+
+group = "com.liferay.custom.lifeinsurance.quotations"

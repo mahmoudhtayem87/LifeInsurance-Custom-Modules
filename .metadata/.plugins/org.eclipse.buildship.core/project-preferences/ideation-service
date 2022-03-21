@@ -1,0 +1,12 @@
+#
+#Mon Jan 10 21:33:56 GST 2022
+classpath=<?xml version\="1.0" encoding\="UTF-8"?>\n<classpath>\n</classpath>\n
+buildScriptPath=build.gradle
+linkedResources=
+subprojectPaths=ideation-service-api\:ideation-service-service
+managedNatures=
+hasAutoBuildTasks=false
+gradleVersion=6.6.1
+buildDir=build
+managedBuilders=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><commands/>
+derivedResources=.gradle\:build\:ideation-service-api/build\:ideation-service-service/build

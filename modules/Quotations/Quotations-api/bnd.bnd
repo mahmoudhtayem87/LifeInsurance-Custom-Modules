@@ -1,0 +1,10 @@
+Bundle-Name: Quotations-api
+Bundle-SymbolicName: com.liferay.custom.lifeinsurance.quotations.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.custom.lifeinsurance.quotations.exception,\
+	com.liferay.custom.lifeinsurance.quotations.model,\
+	com.liferay.custom.lifeinsurance.quotations.service,\
+	com.liferay.custom.lifeinsurance.quotations.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../Quotations-service/service.xml

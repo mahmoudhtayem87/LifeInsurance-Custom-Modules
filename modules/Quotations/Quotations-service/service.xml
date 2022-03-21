@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.4.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_4_0.dtd">
+
+<service-builder dependency-injector="ds" package-path="com.liferay.custom.lifeinsurance.quotations">
+	<namespace>Quotation</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+	<entity local-service="true" name="Quotation" remote-service="true" uuid="true">
+
+		<!-- PK fields -->
+
+		<column name="quotationId" primary="true" type="long" />
+
+		<!-- Group instance -->
+
+		<column name="groupId" type="long" />
+
+		<!-- Audit fields -->
+
+		<column name="companyId" type="long" />
+		<column name="userId" type="long" />
+		<column name="userName" type="String" />
+		<column name="createDate" type="Date" />
+		<column name="modifiedDate" type="Date" />
+
+		<!-- Other fields -->
+		<column name="customerId" type="long" />
+		<column name="quotationAmount" type="long" />
+		<column name="quotationData" type="String" />
+		<column name="quotationType" type="String" />
+		<!-- Order -->
+		<order by="desc">
+			<order-column name="quotationId" />
+		</order>
+
+		<!-- Finder methods -->
+
+		<finder name="CustomerId" return-type="Collection">
+			<finder-column name="customerId" />
+		</finder>
+
+		<!-- References -->
+
+		<reference entity="Group" package-path="com.liferay.portal"></reference>
+		<reference entity="AssetEntry" package-path="com.liferay.portlet.asset"></reference>
+		<reference entity="AssetLink" package-path="com.liferay.portlet.asset"></reference>
+		<reference entity="AssetTag" package-path="com.liferay.portlet.asset"></reference>
+	</entity>
+</service-builder>

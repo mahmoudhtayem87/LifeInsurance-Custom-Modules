@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.osgi.service.component.annotations.Component"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.security.permission.resource.definition.ModelResourcePermissionDefinition"/>
+<fullyQualifiedTypeName name="com.liferay.custom.idea.management.services.service.IdeaLocalService"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.exception.PortalException"/>
+<fullyQualifiedTypeName name="com.liferay.custom.idea.management.services.model.Idea"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.security.permission.resource.PortletResourcePermission"/>
+<fullyQualifiedTypeName name="org.osgi.service.component.annotations.Reference"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.service.GroupLocalService"/>
+<fullyQualifiedTypeName name="org.osgi.service.component.annotations.ReferenceCardinality"/>
+<fullyQualifiedTypeName name="org.osgi.service.component.annotations.ReferencePolicyOption"/>
+<fullyQualifiedTypeName name="com.liferay.sharing.security.permission.resource.SharingModelResourcePermissionConfigurator"/>
+<fullyQualifiedTypeName name="com.liferay.exportimport.kernel.staging.permission.StagingPermission"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.workflow.permission.WorkflowPermission"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.security.permission.resource.ModelResourcePermission"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.security.permission.resource.StagedModelPermissionLogic"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.security.permission.resource.WorkflowedModelPermissionLogic"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.security.permission.resource.ModelResourcePermissionLogic"/>
+<fullyQualifiedTypeName name="org.osgi.util.function.Consumer"/>
+<fullyQualifiedTypeName name="com.liferay.ideation.service.service.IdeasEntryLocalService"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.security.permission.PermissionUpdateHandler"/>
+<fullyQualifiedTypeName name="com.liferay.ideation.service.model.IdeasEntry"/>
+</qualifiedTypeNameHistroy>

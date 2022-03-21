@@ -1,0 +1,12 @@
+#
+#Mon Jan 10 21:33:56 GST 2022
+classpath=<?xml version\="1.0" encoding\="UTF-8"?>\n<classpath>\n</classpath>\n
+buildScriptPath=build.gradle
+linkedResources=
+subprojectPaths=modules\:modules/ideation-service\:modules/ideation-service/ideation-service-api\:modules/ideation-service/ideation-service-service
+managedNatures=org.eclipse.jdt.core.javanature
+hasAutoBuildTasks=false
+gradleVersion=6.6.1
+buildDir=build
+managedBuilders=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><commands/>
+derivedResources=.gradle\:build\:modules/build\:modules/ideation-service/build\:modules/ideation-service/ideation-service-api/build\:modules/ideation-service/ideation-service-service/build

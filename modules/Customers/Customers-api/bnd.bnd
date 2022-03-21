@@ -1,0 +1,10 @@
+Bundle-Name: Customers-api
+Bundle-SymbolicName: com.liferay.custom.lifeinsurance.customers.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.custom.lifeinsurance.customers.exception,\
+	com.liferay.custom.lifeinsurance.customers.model,\
+	com.liferay.custom.lifeinsurance.customers.service,\
+	com.liferay.custom.lifeinsurance.customers.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../Customers-service/service.xml

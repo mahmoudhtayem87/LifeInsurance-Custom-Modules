@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.liferay.custom.lifeinsurance.quotations.model.Quotation">
+		<field name="uuid" type="String" />
+		<field name="quotationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="customerId" type="long" />
+		<field name="quotationAmount" type="long" />
+		<field name="quotationData" type="String" />
+		<field name="quotationType" type="String" />
+	</model>
+</model-hints>

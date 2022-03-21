@@ -1,0 +1,12 @@
+#
+#Mon Jan 10 21:33:56 GST 2022
+classpath=<?xml version\="1.0" encoding\="UTF-8"?>\n<classpath>\n<classpathentry kind\="lib" path\="/Users/mahmoudtayem/.gradle/caches/modules-2/files-2.1/com.liferay.portal/release.dxp.api/7.4.13.u2/8e98ff5d5a7455b24d7600d516949d4b0c739323/release.dxp.api-7.4.13.u2.jar" sourcepath\="/Users/mahmoudtayem/.gradle/caches/modules-2/files-2.1/com.liferay.portal/release.dxp.api/7.4.13.u2/caeb2b28dac4de0dea4a11e4d88e44d9da3eb00/release.dxp.api-7.4.13.u2-sources.jar">\n\t<attributes>\n\t\t<attribute name\="gradle_used_by_scope" value\=""/>\n\t</attributes>\n</classpathentry>\n</classpath>\n
+buildScriptPath=build.gradle
+linkedResources=
+subprojectPaths=
+managedNatures=org.eclipse.jdt.core.javanature
+hasAutoBuildTasks=false
+gradleVersion=6.6.1
+buildDir=build
+managedBuilders=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><commands/>
+derivedResources=.gradle\:build
